@@ -1,0 +1,327 @@
+select {
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.row{
+    margin-top:60px;
+}
+.noTop{
+    margin-top:10px !important;
+}
+.boxButtonContracts{
+    text-align: center;
+    margin-top: 10px;
+}
+.boxFinalPrice{
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 4px;
+}
+.boxFinalPrice input{
+    border:0px solid;
+    margin-left: 5px;
+    width: 99%;
+}
+.padding15{
+    padding: 15px !important;
+}
+.notesTextarea{
+    width: 100%;
+    min-height: 149px;
+    overflow-y: scroll;
+    max-height: 234px;
+}
+.actionDateBigger{
+    display: none;
+}
+.container-stages-href{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    clear: both;
+    padding: 10px;
+    background-color: lavender;
+    text-align: center;
+}
+.container-portlets-found{
+    background-color: cornsilk;
+    padding: 20px !important;
+    border: 1px solid bisque;
+}
+.container-newTmandCR{
+    background-color: cornsilk;
+    padding: 20px !important;
+    border: 1px solid bisque;
+}
+.btnRemoveProject{
+    margin-top: -3px;
+    margin-left: 10px;
+    color: white;
+}
+.btnAddProject{
+    margin-top: -3px;
+    margin-left: 10px;
+    color: white;
+}
+.boxLasContractInfo,.boxLastPaymentInfo{
+    font-size: 12px;
+    text-align: center;
+
+}
+.modal-header .close{
+    margin-top: -10px;
+}
+#paginator{
+    width: 101%;
+}
+.boxFixedTop{
+    position: fixed;
+    z-index: 998;
+    margin-top: -18px;
+    padding-top: 10px;
+    background-color: white;
+}
+.marginContainer{
+    margin-top: 120px !important;
+}
+#labelStage{
+    float:left;
+    width: 100%;
+}
+.boxLasContractInfo span, .boxLastPaymentInfo span{
+    background-color: lavender;
+    padding: 2px;
+    border-radius: 5px;
+}
+.allowFunding,.allowPPA{
+    text-align: center;
+    margin-top: -2px;
+}
+.allowFundingCheckbox, .allowPPACheckbox{
+    margin-left: 5px !important;
+}
+.close-portlets-found{
+    position: absolute;
+    right: 0px;
+    margin-right: 0px;
+    top: 0px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid bisque;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+.totalProjects{
+    text-align: center;
+    padding: 5px;
+    border-radius: 9px;
+    background-color: lavender;
+}
+.boxProjectInfo{
+    /*padding-top: 4px;*/
+    /*background-color: gainsboro;*/
+}
+.boxProjectInfo div{
+    padding-top: 2px;
+}
+.container-stages{
+    text-align: center;
+}
+.container-stages button{
+    padding: 3px !important;
+}
+.container-btn-project{
+    padding-top: 4px;
+    margin-bottom: 10px;
+    float: right;
+}
+.spanProjectAge,.spanProjectOccupation,.spanProjectParty,.spanProjectInventors{
+    padding-left: 5px;
+}
+
+.btnFiles,.btnResetP,.btnInbox, .productionShipmentDate{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background-color: teal;
+}
+
+.btnConnect,.btnHangUp,.btnSendText,.btnLeaveVM,.btnContractActions{
+    background-color: #357ebd;
+    color: #ffffff;
+}
+
+.btnFiles,.btnInbox{
+    width: 89px;
+}
+
+.btnFiles,.btnResetP, .btnInbox{
+    margin-bottom: 2px;
+}
+
+.pProjectInfo{
+    padding: 10px;
+    font-size: 10px;
+    text-align: justify;
+    background: white;
+    border-radius: 5px;
+    min-height: 50px;
+}
+.absolute{
+    position: absolute;
+}
+.spanRequestApprove,.spanRequestClientReview{
+    color:green;
+    font-size: 10px;
+}
+.approveBox{
+    border:1px solid green;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 1%;
+}
+.nmiBox{
+    border:1px solid dodgerblue;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 1%;
+}
+.spanRequestNmi{
+    color:dodgerblue;
+    font-size: 10px;
+}
+.rejectBox{
+    border:1px solid red;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 1%;
+}
+.spanRequestReject{
+    color:red;
+    font-size: 10px;
+}
+.moreInfo{
+    color:red;
+}
+.nav-projects>li{
+    font-size: 11px;
+}
+.lastRequestProject{
+    text-align: center;
+}
+.divRequestClientReview{
+    text-align: center;
+    border:1px solid green;
+    padding-bottom: 5px;
+}
+.h5Stage{
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: lavender;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+.dateMove{
+    margin-bottom: 5px !important;
+}
+
+/*because modal date goes back on modal appointment*/
+.datetimepicker{
+    z-index:1151 !important;
+}
+/*because modal date goes back on modal appointment*/
+.datetimepicker-dropdown-bottom-left{
+    z-index:9999 !important;
+}
+
+/*because modal date goes back on modal appointment*/
+.datepicker{
+    z-index:9999 !important;
+}
+/*because modal date goes back on modal appointment*/
+.datepicker-dropdown{
+    z-index:9999 !important;
+}
+
+.fileFound{
+    background-color: antiquewhite;
+    padding: 5px;
+}
+.projectLogs{
+    background-color: white;
+    min-height: 100px;
+    margin-top: 5px;
+    padding: 5px;
+    overflow-y: scroll;
+    max-height: 234px;
+}
+.tab-pane > .col-md-12,.tab-pane > .col-md-6,
+.tab-pane > .col-md-12 >.col-md-6,
+.tab-pane > .col-md-12 > .col-md-4,
+.tab-pane > .col-md-12 > .col-md-3,
+.tab-pane > .col-md-12 > .col-md-12{
+    padding: 2px;
+}
+.btnMoveToDate{
+    font-size: 12px !important;
+    width: 89px;
+    padding-left: 8px;
+}
+.pagination{
+    width: 101%;
+}
+@media screen and (max-width: 1163px){
+    h5,.btnMoveToDate{
+        font-size: 11px !important;
+    }
+    p{
+        font-size: 10px !important;
+    }
+    .rejectBox,.approveBox{
+        min-height: 48px;
+    }
+    .btnRemoveProject{
+        margin-top: 4px;
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 800px){
+    .row{
+        margin-top: 38px;
+    }
+    .caption{
+        font-size: 10px !important;
+    }
+    .col-xs-12{
+        padding: 0px;
+    }
+    .col-xs-2{
+        padding-left: 0px;
+    }
+    .totalProjects{
+        display: none;
+    }
+    .noPadding{
+        padding: 0px;
+    }
+    .padding5{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .absolute{
+        position: relative;
+    }
+    .salesNotes,.internalNotes{
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    .rejectBox{
+        min-height: 0px !important;
+    }
+    .nav-projects>li{
+        font-size: 9px;
+    }
+}

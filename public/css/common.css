@@ -1,0 +1,256 @@
+.portlet{
+    margin-bottom: 20px;
+    border: 1px solid;
+    border-radius: 3px;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    cursor: pointer;
+}
+.clear{
+    clear: both !important;
+}
+.portlet-selected{
+    background-color: rgba(91, 192, 222, 0.55) !important;
+}
+.portlet-new{
+    background-color: rgba(214, 233, 198, 0.82);
+}
+.portlet-body{
+    display: inline-flex;
+    padding: 10px;
+    width: 100%;
+}
+.container-tools-left{
+    text-align: center;
+    display: inline-table;
+    position: fixed;
+}
+.container-tools-right{
+    position: fixed;
+    right: 0px;
+    text-align: center;
+    display: inline-table;
+}
+.divLinkIndex{
+    text-align: center;
+}
+.divLinkIndex span{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 5px;
+}
+.divLinkIndex a{
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    margin: 5px;
+}
+.topBar{
+    background-color: #2d5f8b;
+    border-bottom: 2px solid black;
+    position: fixed;
+    color: white;
+    z-index: 9999;
+    font-size: 14px;
+}
+#spanUser, #spanPhone, #spanInbox, #spanSettings{
+    float:right;
+    cursor: pointer;
+    padding: 10px;
+}
+#spanUser i, #spanPhone i, #spanInbox i{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#spanUser:hover,#spanPhone:hover,#spanInbox:hover,#spanSettings:hover{
+    background-color: #3979b2 !important;
+}
+.divLogo{
+    text-align: center;
+    padding: 30px;
+}
+.spanIntranet{
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    color: #202120;
+    font-family: Cursive;
+}
+.panel-login{
+    background-color: #2d5f8b !important;
+    color:#FFFFFF !important;
+}
+.caption{
+    text-transform: uppercase;
+    position: absolute;
+    left: 10px;
+    padding: 10px;
+    font-weight: bold;
+}
+.last15Title{
+    margin-top: 10px;
+    font-weight: bold;
+}
+.lastProjectVisited{
+    cursor: pointer;
+    font-weight: bold;
+}
+.container-callers{
+    background-color: lavender;
+    padding: 5px;
+    color: black;
+    height: 180px;
+    overflow-y: scroll;
+    border-radius: 0px;
+}
+.container-last{
+    background-color: lightsteelblue;
+    padding: 5px;
+    color: black;
+    height: 180px;
+    overflow-y: scroll;
+    border-radius: 0px;
+}
+.leader{
+    padding: 3px;
+    text-align: center;
+}
+.leader span strong{
+    margin-right: 5px;
+}
+.cantCalls{
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    background-color: steelblue;
+    border-radius: 10px;
+}
+.editableval{
+    border: 0px;
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 5px;
+}
+.nav-tabs{
+    width: 100%;
+}
+.nav-tabs>li{
+    float: right !important;
+    display: inline-flex;
+    background-color: white;
+}
+.inputCurrentPhone{
+    text-align: center;
+}
+.container-tools-left button,.container-tools-left input,.container-tools-right button{
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.container-portlets,.container-portlets-found,.boxFixedTop{
+    margin-left: 21.666667%;
+}
+.container-founds{
+    max-height: 400px;
+    overflow-y: scroll;
+}
+.modal{
+    z-index: 9999;
+}
+.extraDiv{
+    display: none;
+}
+.container-inbox{
+    height: 400px;
+    overflow-x: scroll;
+}
+#headingOne,#headingTwo,#headingThree, #headingNine, #headingEleven{
+    background-color: cornsilk;
+    cursor: pointer;
+}
+#headingFour,#headingFive,#headingSix,#headingEight, #headingTen, #headingTwelve{
+    background-color: burlywood;
+    cursor: pointer;
+}
+.panel-heading a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.countMessage{
+    background-color: lightseagreen;
+    padding: 7px;
+    margin: 2px;
+    border-radius: 20px;
+    color: #FFFFFF;
+}
+.countMessage i{
+    font-size: 8px;
+    color:black;
+}
+
+@media screen and (max-width: 1145px){
+    .container-portlets,.container-portlets-found,.boxFixedTop{
+        margin-left: 22.666667%;
+    }
+}
+@media screen and (max-width: 1045px){
+    .container-portlets,.container-portlets-found,.boxFixedTop{
+        margin-left: 23.666667%;
+    }
+}
+@media screen and (max-width: 1029px){
+    .topBar{
+        font-size: 12px !important;
+        width: 100%;
+    }
+    .container-callers,.container-last,.boxFixedTop,.last15Title{
+        display: none;
+    }
+    .container-portlets,.container-portlets-found,.boxFixedTop{
+        margin-left: 0px;
+    }
+    .row{
+        margin-top: 38px !important;;
+    }
+    .container-tools-left{
+        position: fixed;
+        z-index: 1000;
+        background-color: aliceblue;
+        padding: 0px;
+        width: 100%;
+    }
+    .container-tools-right{
+        position: fixed;
+        z-index: 1000;
+        background-color: aliceblue;
+        padding: 0px;
+        width: 100%;
+        bottom: 0px !important;
+        height: 40px;
+    }
+    .container-tools-left button{
+        /*border-radius: 0px;*/
+    }
+    .container-portlets,.container-portlets-found,.boxFixedTop{
+        margin-top: 150px;
+    }
+    .container-dialer{
+        margin-top: 5px;
+    }
+    .inputCurrentPhone{
+        margin: 2px 0px 0px 0px ;
+    }
+    .extraDiv{
+        display: inline-block !important;
+    }
+    .noMobil{
+        display: none;
+    }
+}

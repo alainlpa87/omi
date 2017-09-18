@@ -1,0 +1,215 @@
+/** {
+    font-size: 16px;
+    text-align: justify;
+}*/
+p {
+    margin: 0.8em;
+}
+.page-break{
+    page-break-after: always;
+}
+.title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.myFooter{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.myOtherFooter{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.footPage{
+    color: #808080;
+}
+.subTitle{
+    font-size: 18px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.olSmaller li,.pSmall{
+    font-size: 14px !important;
+}
+.pMiniSmall{
+    font-size: 10px !important;
+}
+.pSmaller{
+    font-size: 13px !important;
+}
+.NoMargin{
+    margin-bottom: 0.2em !important;
+    margin-top: 0.2em !important;
+}
+.textCenter {
+    text-align: center;
+}
+.textRight{
+    text-align: right;
+    width: 49%;
+}
+.tablePayment{
+    border-bottom: 3px solid; border-top: 3px solid;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+.tablePayment td,.tableSign td{
+    border-bottom: 1px solid;
+}
+.tablePayment td span,.tableSign td span{
+    border-bottom: 6px solid white;
+    margin-left: -2px;
+}
+.tablePayment td img, ol li img{
+    margin-top: 4px;
+}
+.olQuestions li{
+    padding-bottom: 4px !important;
+    padding-top: 4px !important;
+    text-align: left;
+}
+
+.tablePayment tr{
+    margin-bottom: 10px !important;
+    margin-top: 10px !important;
+    padding-top: 10px !important;
+}
+.tdNone{
+    border-bottom: 1px solid white !important;
+}
+.verySmall, .verySmall li{
+    font-size: 11px;
+    margin: 0.7em;
+}
+.strongSmall{
+    margin: 0.0em;
+}
+
+.superSmall{
+    font-size:11px !important;
+    margin: 0.0em !important;
+    padding: 0.0em !important;
+}
+
+.mySmall{
+    font-size:13px !important;
+    margin: 0.0em;
+    padding: 0.0em;
+    margin-bottom: 5px;
+/*!important*/
+}
+
+.myiItalic{
+    font-size:12px !important;
+    font-style: italic;
+}
+
+.border-round{
+    border:2px solid black;
+    border-radius: 15px !important;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.inner-border{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+.lb-border{
+    border-left:1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.lrb-border{
+    border-left:1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.border-normal{
+    border-collapse:collapse !important;
+    border:2px solid black;
+    width: 100%;
+}
+.forced{
+    /*position: fixed;*/
+    /*top:170px !important;*/
+    position: relative !important;
+    top: -15px !important;
+    margin-left: 480px !important;
+    width: 100px !important;
+    height: 30px !important;
+    border: 1px solid black !important;
+}
+
+.force-2{
+    position: relative !important;
+    top: -30px !important;
+    margin-left: 20px !important;
+    font-size: 15px !important;
+}
+
+
+
+.halfsize {
+    -ms-transform:scale(0.5);
+    -webkit-transform:scale(0.5);
+    transform:scale(0.5);
+}
+
+.pictureSquare{
+    border: solid 1px #000000;
+    display: inline;
+    width: 180px;
+    height: 180px;
+    position: fixed;
+    right: 0;
+
+}
+
+@media screen and (max-width: 360px){
+    .fix-height{
+        height: 76px;
+    }
+    .fix-height-2{
+        height: 50px;
+    }
+
+    .myTextArea{
+        margin: 0px !important;
+    }
+}
+
+
+@media screen and (max-width: 379px){
+    .fix-height-2{
+        height: 50px;
+    }
+
+    .myTextArea{
+        margin: 0px !important;
+    }
+}
+
+@media screen and (min-width:381px) and  (max-width: 470px){
+    .fix-height{
+        height: 51px;
+    }
+    .fix-height-2{
+        height: 50px;
+    }
+    .myTextArea{
+        margin: 0px !important;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 780px){
+    .fix-height{
+        height: 51px;
+    }
+    .myTextArea{
+        margin: 0px !important;
+    }
+}
+

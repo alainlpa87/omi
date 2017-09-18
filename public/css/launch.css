@@ -1,0 +1,157 @@
+.container-launch{
+    margin-top: 200px;
+    text-align: center;
+    font-size: 16px;
+}
+#spanUser{
+    cursor: pointer;
+}
+.boxLogin{
+    background-color: #eceef1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+.form-title{
+    color: #4db3a5;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400 !important;
+}
+.row{
+    margin: 0px !important;
+}
+
+.fileListSpan{
+    border-bottom: 1px solid #e5e5e5;
+    color: #555;
+    font-size: 14px;
+}
+
+.launchDeleteFile{
+    float: right;
+    cursor:pointer
+}
+
+.fileList{
+    padding-top: 7px;
+}
+
+/* unvisited link */
+a:link {
+    color: #000000;
+}
+
+/* visited link */
+a:visited {
+    color: #000000;
+}
+a .panel-title{
+    font-weight: bold;
+}
+.container-body{
+    box-shadow: 0 0 .5em #999;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans+Narrow|Gloria+Hallelujah|Source+Sans+Pro:200,300,400,600,700,900&amp;subset=all);
+.btn-submit{
+    padding:7px;
+    border:#FFF double 4px;
+    color:#FFF !important;
+    font-size: x-large;
+    background: #30af69 !important;
+}
+.btn-submit:hover{
+    border: #30af69 double 4px;
+    text-decoration:none !important;
+    color:#30af69 !important;
+    background: transparent !important;
+}
+a.saveImg {
+    top: -3px;
+    position: relative;
+    font-size: 13px;
+    font-family: FontAwesome;
+    color: rgba(255, 255, 255, 0.77);
+}
+.bubble{
+    padding: 15px;
+    border-radius: 6px;
+    background-color: #2d5f8b;
+    font-size: 16px;
+    color: #fff;
+}
+.greet{
+    font-size:180%;
+    opacity:0.6;
+    font-weight:bold;
+    vertical-align: text-bottom;
+    text-align: center;
+}
+.message{
+    display: none;
+    font-family: Verdana, Geneva, sans-serif;
+    float: right;
+    text-align: justify;
+    background-color: white;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.welcome{
+    font: initial;
+    float: right;
+    text-align: justify;
+    box-shadow: 0 0 .5em #999;
+    margin-bottom: 10px;
+}
+.btnBack{
+    float: right;
+}
+.btnSaveProject{
+    float: left;
+}
+#techField{
+    min-height: 150px;
+}
+.boxBtnApproval{
+    height: 200px;
+}
+#btnSaveApproval{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+@media screen and (max-width: 800px){
+    .projectStatus{
+        display: none;
+    }
+    .number{
+        font-size: 24px !important;
+    }
+    #page-wrapper{
+        padding: 0px !important;
+    }
+    .col-xs-12{
+        padding: 1px !important;
+    }
+    .btn{
+        font-size: 12px;
+    }
+    .tab-content, .container-fluid{
+        padding: 0px !important;
+    }
+    .inputTableSign{
+        margin: 0px !important;
+    }
+}
+
+u{
+    text-decoration: underline;
+}
+
+.welcomeEmLCLabel:hover{
+   color: red;
+    text-decoration: underline;
+}

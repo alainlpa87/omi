@@ -1,0 +1,8 @@
+.dialogUploadFile{
+    width: 70%;
+}
+
+.contract-body-scroll{
+    overflow-y: scroll;
+    height: 400px;
+}

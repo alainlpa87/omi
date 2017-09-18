@@ -1,0 +1,224 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans+Narrow|Gloria+Hallelujah|Source+Sans+Pro:200,300,400,600,700,900&amp;subset=all);
+.linkPatentServices{
+    text-decoration: none !important;;
+    margin-right: 0px;
+    padding: 0px;
+    color: #616b76 !important;
+    font: 700 32px/45px "PT Sans Narrow", sans-serif;
+}
+
+body{
+    font: 400 13px 'Open Sans',Arial,sans-serif;
+}
+
+.pre-header{
+    position: fixed;
+    z-index: 99999;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid #eee;
+}
+
+.pre-header .container{
+    background-color: #ffffff;
+    padding-top: 10px
+}
+
+.pre-header .row{
+    border-bottom: 1px solid rgba(160, 158, 158, 0.22);
+}
+
+.pre-header ul{
+    float: left;
+}
+
+.pre-header a {
+    color: #616b76;
+}
+
+.linkPatentServices a:hover{
+    color:#64AED9 !important;
+}
+.linkPatentServices img{
+    vertical-align: text-bottom;
+}
+.mobi-toggler {
+    background-color: #83BEE0 !important;
+    border-color: #83BEE0 !important;
+}
+.pre-footer {
+    background: #64AED9 !important;
+    color: #FFFFFF !important;
+}
+.pre-footer h2 {
+    font-size: 21px !important;
+    color: #FFFFFF !important;
+}
+.pre-footer a {
+    color: #FFFFFF !important;
+}
+
+.pre-footer ul li{
+    display: inline;
+    padding: 0 5px;
+    margin: 0;
+}
+
+.pre-footer .medalions {
+    padding-left: 10px;
+    margin-top: -40px;
+    vertical-align: baseline;
+}
+
+.pre-footer .customerReviews {
+     padding-left: 10px;
+     margin-top: -40px;
+     vertical-align: baseline;
+     width: 15%;
+ }
+
+.pre-footer .customerReviews1 {
+    display: none;
+    border: none;
+}
+
+.navMenu{
+    background-color: #ffffff;
+    padding-top: 145px;
+}
+
+.aImgToLogin{
+    float: right;
+    text-align: left;
+    width: 45%;
+    margin-top: 10px;
+}
+
+.imgToLogin{
+    box-shadow: 7px 7px 10px;
+}
+
+.rightTopIcons{
+    float: right;
+    margin-right: 10px;
+}
+
+.rightTopIconsISSF{
+    float: right;
+    padding-top: 7px;
+}
+
+.rightTopIconsDiv{
+    float: right;
+    text-align: right;
+    padding: 0;
+}
+
+.bigGreenButton{
+    float: left;
+    text-align: right;
+    width: 45%;
+    margin-top: 7px;
+}
+
+.divContainerMenu{
+    font: 15px 'Open Sans',sans-serif;
+}
+
+.spaceLinkMenu{
+    color: transparent !important;
+}
+
+@media (max-width: 480px){
+    .imgToLogin {
+        box-shadow: 2px 2px 5px !important;
+        margin-top: -10px;
+    }
+
+    .pre-footer .customerReviews {
+        padding-left: 10px;
+        vertical-align: baseline;
+        width: 15%;
+        margin-top: 0px;
+    }
+    .spaceLinkMenu{
+        color: transparent !important;
+        font-size: inherit;
+    }
+}
+
+.btn-call {
+    padding: 7px;
+    border: #fff solid 1px;
+    color: #fff;
+}
+.btn-call:hover {
+    border: #89C4F4 double 4px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #89C4F4 !important;
+}
+#map-canvas {
+    width: 290px;
+    height: 240px;
+}
+.paperBackground{
+    background-color: #F5F6E1 !important;
+    width: 100%;
+    padding: 5px;
+    text-align: justify;
+}
+/*------------------------------------------------------------*/
+.match {
+    border: 1px solid #006600 !important;
+}
+.not_match{
+    border: 1px solid #AA0000 !important;
+}
+.divBoxBlue{
+    background-color: #D8F8F4;
+    border-radius: 8px;
+    padding: 10px;
+    min-height: 340px;
+}
+.divBoxBlue label{
+    width: 100%;
+    font-size: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.linkGoBack{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.linkGoBack a{
+    font-size: 16px;
+    position: relative;
+    text-decoration: none !important;
+    font-weight: bold;
+    text-align: right;
+    color: darkblue !important;
+
+}
+
+.patent-app-up{
+    color:green !important;
+    /*margin-left: 30px !important;*/
+    vertical-align: inherit !important;
+}
+
+.patent-app-down{
+    margin-right: 30px !important;
+    color:red !important;
+}
+
+.patent-app-up:hover, .patent-app-down:hover{
+    text-decoration: none !important;
+}
+
+#recoverPswd:hover{
+    text-decoration: none !important;
+    color: blue;
+    font-size: 20px !important;
+}
+

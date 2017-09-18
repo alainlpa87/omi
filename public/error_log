@@ -1,0 +1,1 @@
+[17-Jul-2017 11:13:55 America/Detroit] PHP Parse error:  syntax error, unexpected 'class' (T_CLASS), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home/patent4less/public_html/3.0/public/index.php on line 50

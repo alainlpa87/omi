@@ -1,0 +1,89 @@
+.container-launch{
+    text-align: center;
+    font-size: 16px;
+}
+.boxLogin{
+    background-color: #eceef1;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 10px;
+}
+.form-title{
+    color: #4db3a5;
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400 !important;
+}
+.row{
+    margin: 0px !important;
+}
+.container-body{
+    box-shadow: 0 0 .5em #999;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+.divLogoLogin{
+    padding-top: 10px;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|PT+Sans+Narrow|Gloria+Hallelujah|Source+Sans+Pro:200,300,400,600,700,900&amp;subset=all);
+.btn-submit{
+    padding:7px;
+    border:#FFF double 4px;
+    color:#FFF !important;
+    font-size: x-large;
+    background: #30af69 !important;
+}
+.btn-submit:hover{
+    border: #30af69 double 4px;
+    text-decoration:none !important;
+    color:#30af69 !important;
+    background: transparent !important;
+}
+a.saveImg {
+    top: -3px;
+    position: relative;
+    font-size: 13px;
+    font-family: FontAwesome;
+    color: rgba(255, 255, 255, 0.77);
+}
+.bubble{
+    padding: 15px;
+    border-radius: 6px;
+    background-color: #64AED9;
+    font-size: 16px;
+    color: #fff;
+}
+.greet{
+    font-size:180%;
+    opacity:0.6;
+    font-weight:bold;
+    vertical-align: text-bottom;
+    text-align: center;
+}
+.message{
+    display: none;
+    font-family: Verdana, Geneva, sans-serif;
+    float: right;
+    text-align: justify;
+    background-color: white;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.welcome{
+    font: initial;
+    float: right;
+    text-align: justify;
+    box-shadow: 0 0 .5em #999;
+    margin-bottom: 10px;
+}
+.btnBack{
+    float: right;
+}
+.btnSaveProject{
+    float: left;
+}
+#techField{
+    min-height: 150px;
+}

@@ -1,0 +1,31 @@
+.subTitles{
+    text-align: left;
+    color: #2d5f8b;
+    font-size: 24px;
+    font-weight: bold;
+}
+.input-group{
+    margin-bottom: 5px;
+}
+.cardhide{
+    margin-right: 4px;
+    width: 38px;
+    margin-top: -4px;
+}
+.submit-btn{
+    text-align: center;
+}
+.boxPaymentInfo{
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+}
+@media screen and (max-width: 600px){
+    .cardhide{
+        width: 30px !important;
+    }
+}
+@media screen and (max-width: 310px){
+    .cardhide{
+        width: 24px !important;
+    }
+}

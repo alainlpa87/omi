@@ -1,0 +1,195 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.adminIcons {
+    font-size: x-large;
+    padding-right: 3%;
+}
+.vendorBox {
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-bottom: 1%;
+    padding-right: 0px !important;
+    padding-left: 10px !important;
+}
+
+#inputFindSub{
+    margin-bottom: 20px;
+}
+
+.fileFound, .fileHeader{
+    min-height: 40px;
+}
+
+.dialogFileAdminAccess{
+    width: 70%;
+}
+
+.fileFound, .fileHeader{
+    min-height: 40px;
+}
+
+.pProjectInfo {
+    min-height: 35px !important;
+}
+
+.btnActionsClientServices{
+    float: right;
+}
+
+.checkType{
+    margin-left: 5px !important;
+}
+
+.checkSpan{
+    position: relative;
+    top: -3px;
+}
+
+a i h4{
+    color: #000000 !important;
+}
+
+.patentAppText{
+    width: 100%;
+    background-color: antiquewhite;
+    border-radius: 2px;
+    border: 0px;
+}
+
+.ppaDetailsInput{
+    padding: 10px;
+    text-align: justify;
+    background: white;
+    border-radius: 5px;
+    width: 90%;
+    /*border-radius: 5px;*/
+    /*border: 0px;*/
+}
+
+.clientDetailsInput{
+    padding: 10px;
+    text-align: justify;
+    background: white;
+    border-radius: 5px;
+    width: 90%;
+    /*border-radius: 5px;*/
+    /*border: 0px;*/
+}
+
+
+.ppaDetailsDate{
+    padding: 10px;
+    text-align: justify;
+    background: white;
+    border-radius: 5px;
+    width: 100% !important;
+}
+
+.selectAttorney, .selectPatentType{
+    background-color: antiquewhite;
+    border-radius: 2px;
+}
+
+
+.backBlue{
+    background-color: #2d5f8b !important;
+}
+
+.titleContainers{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.borderBlue{
+    border: 1px solid #2d5f8b !important;
+}
+
+.col-md-12{
+    padding-right: 0px !important;
+}
+
+.pickDate{
+    width: 60%;
+}
+
+.subTitlesCS{
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container-legal-docs{
+    border: 1px #2D5F8B solid;
+    margin-bottom: 20px  !important;
+}
+
+.heading-docs{
+    background-color: #2D5F8B !important;
+}
+
+.attorney_info{
+    float:left;
+    padding-right: 10px;
+}
+
+.boxAttorney{
+    font-weight: bold;
+    border: 1px solid;
+    padding: 10px;
+    background-color: #2d5f8b;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.container-returnPatentApp{
+    min-height: 40px;
+    background-color: antiquewhite;
+    padding: 5px;
+}
+
+/* setting the width and height of the SELECT element to match the replacing graphics */
+select.select{
+    position:relative;
+    z-index:10;
+    width:166px !important;/*166px !important*/
+    height:20px !important;
+    line-height:20px;
+    top: -5px ;
+}
+
+/* dynamically created SPAN, placed below the SELECT */
+span.select{
+    position:absolute;
+    top: -5px;
+    /*bottom:0;*/
+    float:left;
+    left:0;
+    width:166px;
+    height:26px;
+    line-height:26px;
+    text-indent:10px;
+    cursor:default;
+    z-index:1;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.container-legal{
+    max-height: 400px;
+}
+
+.bubble-legalA{
+    padding: 12px;
+    background-color: #3071a9;
+    font-size: 12px;
+    color: #fff;
+}

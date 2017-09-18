@@ -1,0 +1,171 @@
+* {
+    font-size: 13px;
+    text-align: justify;
+}
+p {
+    margin: 0.7em;
+}
+.page-break{
+    page-break-after: always;
+}
+th,td{
+    padding-right: 7mm;
+}
+.show{
+    border:1px solid #AAAAAA;
+    border-collapse:collapse;
+}
+.totalTable{
+    width: 100%;
+    margin-left: 5px;
+}
+.shadow{
+    color: darkgray !important;
+    margin-left: 20px;
+}
+.chk_square{
+    padding-top:7px;
+}
+.chk_square li img{
+    width: 13px;
+    height: 13px;
+    margin-left: 5px;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left !important;
+}
+table.page_footer{
+    width: 100%;
+    border-top:solid 1px #000000;
+    padding: 7px 10px 5px 10px;
+    margin-top: 21px;
+    margin-bottom: 21px;
+}
+.notesTable{
+    width: 690px;
+    height: 75px;
+}
+.rect{
+    border:solid 1px;
+    padding:5px 10px 5px 10px;
+    border-radius:0px;
+}
+h3{
+    font-size: 19px !important;
+    text-align: center !important;
+    width: 100%;
+}
+.TM{
+    font-size: 10px !important;
+    color: red;
+}
+.pfloatRight{
+    float: right;
+    text-align: right;
+}
+.ul14{
+    font-size: 14px !important;
+}
+.alignLeft{
+    text-align: left !important;
+}
+.underline{
+    text-decoration: underline;
+}
+.questions{
+    font-size: 14px !important;
+}
+.blackLine{
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.trLine{
+    border-bottom: 1px solid black;
+}
+.spanProfile{
+    border-bottom: 5px solid white;
+    margin-left: -5px;
+}
+.red{
+    color: red;
+}
+.pSmaller{
+    font-size: 11px !important;
+}
+.pIndex{
+    font-size: 20px;
+    margin-left: 50px;
+}
+.wpSubTitle{
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.ulNone{
+    list-style: none !important;
+}
+.ulSquare{
+    list-style-type: square !important;
+}
+.ulDecimal{
+    list-style: decimal;
+}
+.boxText{
+    width: 100%;
+    border: 1px solid black;
+    text-align: justify;
+    padding:5px;
+}
+.signInputs{
+    border-top : 1px solid black;
+    text-align: center !important;
+}
+.priceLeft{
+    margin-left: 20px;
+}
+
+.tableSold {
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.tableSold td, .tableSold th {
+    border: 1px solid black;
+    padding: 8px;
+}
+.tableSold td{
+    width: 60%;
+}
+.thFirst{
+    border: 0px solid;
+    width:36%;
+    padding: 5px;
+}
+.thFirst p{
+    border-top: 1px solid #000000;
+    width: 100%;
+}
+.thSecond{
+    border: 0px solid;
+    padding: 5px;
+}
+.littleBOx1 p{
+    padding: 0px;
+    margin: 5px;
+}
+.boxAdmin{
+    border: 1px solid;
+    height: 100px;
+    width:100%;
+}
+.boxAdmin p{
+    margin-left: 5px;
+}
+.iconMargin{
+    margin-left: 39%
+}

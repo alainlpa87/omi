@@ -1,0 +1,1 @@
+<img src="<?php echo e($imgPath); ?>" style="width: 100%">

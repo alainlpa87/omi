@@ -1,0 +1,135 @@
+select {
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.row{
+    margin-top:60px;
+}
+.container-flags{
+    position: absolute;
+    right: -7px;
+    max-width: 27px;
+    margin-top: 10px;
+    z-index: 999;
+    display: inline;
+}
+.checkPhone{
+    float: left;
+    margin-top: 14px !important;
+}
+
+.btnConnect,.btnHangUp,.btnSendText,.btnLeaveVM,.btnContractActions{
+    background-color: #357ebd;
+    color: #ffffff;
+}
+
+.inputSecondPhone{
+    float: left;
+    width: 82%;
+}
+.container-flags img{
+    cursor: pointer;
+}
+.container-btn-lead{
+    padding-top: 4px;
+    margin-bottom: 10px;
+    float: right;
+}
+.reasoncount{
+    margin-bottom: 10px;
+    font-size: 11px;
+}
+.notesTextarea, .logsTextarea{
+    width: 100%;
+    min-height: 149px;
+    overflow-y: scroll;
+    max-height: 234px;
+}
+.leadFound{
+    background-color: antiquewhite;
+    padding: 5px;
+}
+.leadFound input{
+    float: left;
+    margin-right: 5px;
+}
+.leadFoundOwned{
+    color:#000000;
+}
+.leadFoundNoOwned{
+    color:darkgray;
+}
+.leadFoundSelected{
+    background-color: lightblue !important;
+}
+.totalLeads{
+    text-align: center;
+    padding: 5px;
+    border-radius: 9px;
+    background-color: lavender;
+}
+.inputRestDays{
+    max-width: 40px;
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+    margin-top: 4px;
+}
+.btnRestDays{
+    /*max-width: 50%;*/
+}
+
+/*because modal date goes back on modal appointment*/
+.datetimepicker{
+    z-index:1151 !important;
+}
+/*because modal date goes back on modal appointment*/
+.datetimepicker-dropdown-bottom-left{
+    z-index:9999 !important;
+}
+
+@media screen and (max-width: 1075px){
+    .nav-tabs li a,.reasoncount{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 1045px){
+    .nav-tabs li a,.reasoncount{
+        font-size: 9px;
+    }
+    .btnRemoveLead{
+        font-size: 11px;
+    }
+}
+@media screen and (max-width: 800px){
+    .row{
+        margin-top: 38px;
+    }
+    .caption{
+        font-size: 10px !important;
+    }
+    .col-xs-12{
+        padding: 0px;
+    }
+    .col-xs-2{
+        padding-left: 0px;
+    }
+    .totalLeads{
+        display: none;
+    }
+    .restTools{
+        margin-top: 20px;
+    }
+    .noPadding{
+        padding: 0px;
+    }
+    .padding5{
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    .container-flags{
+        margin-right: 8px;
+    }
+}

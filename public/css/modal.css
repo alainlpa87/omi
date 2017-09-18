@@ -1,0 +1,94 @@
+.seeLinkArticle{
+    font-size: 10px !important;
+}
+#sendArticleModal .modal-body{
+    min-height: 170px;
+}
+#sendArticleModal h3{
+    font-weight: bold;
+    text-align: center;
+}
+#sendArticleModal h4{
+    font-weight: bold;
+}
+#email_to_link, #phone_to_link{
+    font-style: italic;
+    font-weight: bold;
+}
+#loadingModal, #loadingModalAjax,#adminLoadingModal{
+    background: white;
+    opacity: 0.5;
+}
+#loadingModal .modal-dialog, #loadingModalAjax .modal-dialog, #adminLoadingModal .modal-dialog{
+    margin-top: 10%;
+    text-align: center;
+}
+#settingsModal label{
+    text-align: right;
+    margin-top: 10px;
+    font-size: 13px;
+}
+.setvm{
+    margin-bottom: 5px;
+    padding: 4px;
+    margin-top: 5px;
+}
+#settingsModal .modal-body{
+    min-height: 500px;
+}
+.setVMName,.setTextNotificationNumber,.setAllowTextNotification,.setDID2{
+    cursor: pointer;
+    color:darkgreen;
+}
+#iframeModal{
+
+}
+.btnUpdateContractActions{
+    margin-top: 10px;
+}
+
+.inboxMessage{
+    color: #000000;
+    border: 1px solid;
+    min-height: 40px;
+    padding: 5px;
+    margin-bottom: 1px;
+}
+.newMessage{
+    background-color: cornsilk;
+}
+.oldMessage{
+    background-color: burlywood;
+}
+.oldMessageConsultant{
+    background-color: #B2ADA6;;
+}
+.historyBox{
+    width: 100%;
+    display: inline-flex;
+}
+.historyNew{
+    border:1px solid;
+    width:40px;
+    height: 20px;
+    background-color: cornsilk;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.historyOld{
+    border:1px solid; width:40px;
+    height: 20px;
+    background-color: burlywood;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.pHistory{
+    font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+
+    #ilcPortletModal .modal-dialog  {width:900px;}
+    #courtesyModal .modal-dialog  {width:900px !important;}
+    #introCallEmailModal .modal-dialog  {width:900px !important;}
+}

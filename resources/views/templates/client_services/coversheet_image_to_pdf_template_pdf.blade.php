@@ -1,0 +1,1 @@
+<img src="{{$imgPath}}" style="width: 100%">

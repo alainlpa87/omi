@@ -1,0 +1,60 @@
+.adminIcons {
+    font-size: x-large;
+    padding-right: 3%;
+}
+.vendorBox {
+    border-bottom-color: black;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    margin-bottom: 1%;
+}
+.redNMI{
+    color: red;
+}
+
+#inputFindSub{
+    margin-bottom: 20px;
+}
+
+.approveNmiBox{
+    color:green;
+    font-size: 10px;
+    border:1px solid green;
+    padding-bottom: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 1%;
+}
+
+.dialogFileAdminAccess{
+    width: 90%;
+}
+
+.contract-body-scroll{
+    overflow-y: scroll;
+    height: 400px;
+}
+
+.fileFound, .fileHeader{
+    min-height: 40px;
+}
+
+.contractFound{
+    min-height: 80px;
+}
+
+.divSelectOptionAdmin{
+    padding-top: 10%;
+}
+
+@media screen and (max-width: 1135px){
+    .approveNmiBox, .approveBox, .nmiBox, .rejectBox{
+        min-height: 30px;
+    }
+    .divSelectOptionAdmin{
+        padding-top: 1% !important;
+    }
+}
+
+.uploadFilesILCVendors { transition: all .2s ease-in-out; }
+.uploadFilesILCVendors:hover { transform: scale(1.5);color: green; }

@@ -1,0 +1,153 @@
+.rowTop {
+    margin-top: 60px;
+}
+.container-charts{
+    text-align: center;
+}
+.container-tools-left button, .container-tools-left input{
+    border-radius: 0px !important;
+}
+.chart{
+    margin-top: 30px;
+}
+.ct-horizontal,.ct-vertical{
+    font-size: 12px !important;
+    color: #000000 !important;
+}
+.containerReportButtons{
+    margin-top: 10px;
+}
+select {
+     height: 30px;
+     border-radius: 5px;
+     margin-bottom: 10px;
+}
+#titleChart{
+    text-align: center;
+    background-color: #2d5f8b;
+    color: white;
+    padding: 10px;
+    border: 2px solid black;
+    display: none;
+}
+.selectedMonth{
+    margin-top: 2px;
+}
+#tableDataScores{
+    display: none;
+}
+#tableDataScores_wrapper, #tableDataStats_wrapper, #tableData_wrapper ,.ct-chart{
+    margin-top: 20px;
+}
+.bkBisque{
+    background-color: bisque;
+}
+.bkCornsilk{
+    background-color: cornsilk;
+}
+.label-1{
+  color:#d70206;
+}
+.label-2{
+    color:#f05b4f;
+}
+.label-3{
+    color:#f4c63d;
+}
+.label-4{
+    color:#d17905;
+}
+.label-5{
+    color:#453d3f;
+}
+.label-6{
+    color:#59922b;
+}
+.label-7{
+    color:#0544d3;
+}
+.label-8{
+    color:#6b0392;
+}
+.label-9{
+    color:#f05b4f;
+}
+.label-10{
+    color:#dda458;
+}
+.label-11{
+    color:#eacf7d;
+}
+.label-12{
+    color:#86797d;
+}
+.label-13{
+    color:#b2c326;
+}
+.label-14{
+    color:#6188e2;
+}
+.label-15{
+    color:#a748ca;
+}
+.label-16{
+    color:#d70206;
+}
+.label-17{
+    color:#d70206;
+}
+.label-18{
+    color:#d70206;
+}
+.label-19{
+    color:#d70206;
+}
+.label-20{
+    color:#d70206;
+}
+.label-21{
+    color:#d70206;
+}
+.label-22{
+    color:#d70206;
+}
+.label-23{
+    color:#d70206;
+}
+.label-24{
+    color:#d70206;
+}
+.label-25{
+    color:#d70206;
+}
+.label-26{
+    color:#d70206;
+}
+.label-27{
+    color:#d70206;
+}
+.infoChart, .callChart{
+    display: inline-flex;
+    text-align: left;
+    border: 1px solid black;
+    padding: 6px;
+    background-color: #2d5f8b;
+    color: white;
+    display: none;
+    overflow-y: scroll;
+    max-height: 500px;
+}
+.ct-label{
+    min-width: 40px !important;
+}
+ @media screen and (max-width: 800px){
+    .row{
+        margin-top: 38px;
+    }
+     .containerReportButtons{
+         margin-top: 0px !important;
+     }
+     .container-charts{
+         margin-top: 200px;
+     }
+}

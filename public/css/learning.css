@@ -1,0 +1,93 @@
+.fakeLink{
+    color: #00b3ee;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.fakeLink:hover{
+    color: #428bca;
+    text-decoration: none;
+}
+
+.bubble{
+    padding: 15px;
+    border-radius: 6px;
+    background-color: #64AED9;
+    color: #fff;
+}
+.quote-v1{
+    background:#7C858E;
+    padding:10px 0;
+    margin:10px 0px 10px 0px;
+    font-size: 60%;
+}
+.quote-v1 a{
+    margin:5px;
+    display:inline-block;
+}
+.quote-v1 span{
+    color:#fff;
+    font-size:22px;
+    font-weight:300;
+    margin:13px 5px 8px;
+    line-height:26px;
+    display:inline-block;
+}
+.quote-v1 a.btn-transparent{
+    color:#fff;
+    font-size:16px;
+    padding:8px 18px;
+    white-space:nowrap;
+    text-decoration:none;
+    border:1px solid #fff;
+    background:0 0;
+}
+.quote-v1 a.btn-transparent:hover{
+    background:#64aed9;
+    color:#fff;
+    transition:all .5s ease;
+    -o-transition:all .5s ease;
+    -moz-transition:all .5s ease;
+    -webkit-transition:all .5s ease;
+}
+
+.cta {
+    font-size: 580%!important;
+    opacity: .5;
+    font-weight: 700!important;
+    top: -80px;
+    line-height: 90%;
+    color: #fff;
+    padding-bottom: 15px!important;
+}
+
+.artLinks{
+    max-height: 1320px;
+    overflow-y: scroll;
+}
+
+.learningTopic{
+    cursor: pointer
+}
+
+.artLinks ul li:hover{
+    text-decoration: underline;
+}
+
+#artContent{
+    box-shadow: 0 0 .5em #999;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+/*@media codes*/
+@media only screen and (max-width: 1000px) {
+    .artLinks{
+        max-height: 150px;
+        overflow-y: scroll;
+        margin-bottom: 20px;
+    }
+    .bubble{
+        font-size: large;
+    }
+}
